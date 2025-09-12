@@ -13,6 +13,6 @@ flowchart LR
     B -->|URL Map| C[Backend Bucket]
     C -->|Static Files| D[Google Cloud Storage]
     subgraph DNS
-        E[Domain (matthewkrieger.site)]
+        E[Domain matthewkrieger.site]
     end
     E --> B 
