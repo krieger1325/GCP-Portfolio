@@ -15,4 +15,38 @@ flowchart LR
     subgraph DNS
         E[Domain matthewkrieger.site]
     end
-    E --> B 
+    E --> B
+```
+## Steps to complete setup (All done in GCP Console):  
+-Create GCS Bucket  
+(Cloud Storage -> Buckets -> Create)  
+
+-Configure bucket  
+(Region: Multi, Allow Public Access, Uniform Access Control)  
+
+-Upload Website Files  
+
+-Make files public  
+(Principal: allUsers, Role: Storage Object Viewer)  
+
+-Enable Website Hosting
+(Bucket -> Edit website configuration -> Set Index page suffix to index.html)  
+
+-Set up load balancer  
+(Network Services -> Load Balancing -> Create Load Balancer ->  
+Application Load Balancer -> Public Facing -> Global Workloads ->  
+Global External Application Load Balancer -> Configure)  
+
+-Configure Load Balancer  
+(Frontend: Protocol: HTTPS, IP Version: IPv4, IP Address: Static,  
+Port: 443, Create New Certificate -> Create Google-managed certificate)  
+(Backend: Create Backend Bucket -> Select Storage Bucket, Enable Cloud CDN,  
+Cache Static Content, Allow public access to Cloud CDN content)  
+(Routing Rules: Simple host and path rule, all others set to default)  
+
+-Add A Records to DNS settings on Namecheap to point to static IP address  
+
+-Verify Functionality  
+(curl -I https://matthewkrieger.site)  
+  
+
