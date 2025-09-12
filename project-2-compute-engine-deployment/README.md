@@ -23,4 +23,3 @@ flowchart LR
     A[User Browser] -->|HTTP Request| B[Firewall Rule: TCP:80]
     B --> C[Compute Engine VM]
     C --> D[Nginx Web Server]
-    D --> E[/var/www/html/index.html]
