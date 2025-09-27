@@ -13,8 +13,8 @@ cloud infrastructure, DevOps, data engineering, security, and automation.
 ## About Me
 
 I am passionate about cloud architecture, automation, and scalable solutions.
-I love working in Linux and currently hold the following Comptia certifications:
-Linux+, Security+, Network+, A+, and I am working on the GCP ACE. In my spare
+I love working in GCP and Linux and currently hold the following certifications: GCP ACE,
+Linux+, Security+, Network+, A+. In my spare
 time I love being with my family, running, and watching football.
 
 I built this portfolio to demonstrate hands-on experience with GCP services
