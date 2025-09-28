@@ -7,7 +7,7 @@
 
 ## Welcome to my Google Cloud Platform Cloud Engineer Portfolio!
 
-This portfolio showcases 7 real-world projects to demonstrate my skills in
+This portfolio showcases 8 real-world projects to demonstrate my skills in
 cloud infrastructure, DevOps, data engineering, security, and automation.
 
 ## About Me
@@ -37,8 +37,9 @@ such as:
 ## Portfolio Projects
 -Project 1: Static Website Hosting  
 -Project 2: Compute Engine Deployment  
--Project 3: Serverless Function  
--Project 4: Containerized App on Cloud Run  
--Project 5: GKE Microservices App  
--Project 6: Real-Time Data Pipeline  
--Project 7: High Availability Setup
+-Project 3: IAM & Logging Best Practices
+-Project 4: Serverless Function  
+-Project 5: Containerized App on Cloud Run  
+-Project 6: GKE Microservices App  
+-Project 7: Real-Time Data Pipeline  
+-Project 8: High Availability Setup
