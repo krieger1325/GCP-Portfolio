@@ -19,7 +19,8 @@ Use case: Customer uploads color image, system converts to grayscale
 -(Cloud Functions Invoker, Storage Object Admin, Pub/Sub Publisher)  
 -Step 4: Create Cloud Run Function  
 -(Trigger: Cloud Storage - Event Type: storage.objects.create)  
--(Set Environment Variables)
+-(Set Environment Variables)  
 -Step 5: Add Code (See main.py and requirements.txt in this folder for code)  
 -Step 6: Deploy  
 -Step 7: Test
+
