@@ -31,5 +31,5 @@ flowchart LR
     F -->|PNG| O[(GCS Output Bucket)]
     F -->|Non-image| Q[(GCS Quarantine Bucket)]
     F -->|JSON Event| P[(Pub/Sub Topic: processed-images)]
-```
+
 
