@@ -24,12 +24,7 @@ Use case: Customer uploads color image, system converts to grayscale
 -Step 6: Deploy  
 -Step 7: Test  
 
-```mermaid
-flowchart LR
-    U[User Upload] -->|.jpg/.png| I[(GCS Input Bucket)]
-    I -->|Finalize Event| F[Cloud Function (Gen2)]
-    F -->|PNG| O[(GCS Output Bucket)]
-    F -->|Non-image| Q[(GCS Quarantine Bucket)]
-    F -->|JSON Event| P[(Pub/Sub Topic: processed-images)]
+
+
 
 
