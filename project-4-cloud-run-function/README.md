@@ -22,5 +22,14 @@ Use case: Customer uploads color image, system converts to grayscale
 -(Set Environment Variables)  
 -Step 5: Add Code (See main.py and requirements.txt in this folder for code)  
 -Step 6: Deploy  
--Step 7: Test
+-Step 7: Test  
+
+```mermaid
+flowchart LR
+    U[User Upload] -->|.jpg/.png| I[(GCS Input Bucket)]
+    I -->|Finalize Event| F[Cloud Function (Gen2)]
+    F -->|PNG| O[(GCS Output Bucket)]
+    F -->|Non-image| Q[(GCS Quarantine Bucket)]
+    F -->|JSON Event| P[(Pub/Sub Topic: processed-images)]
+```
 
