@@ -39,8 +39,13 @@ such as:
 -Project 1: Static Website Hosting  
 -Project 2: Compute Engine Deployment  
 -Project 3: IAM & Logging Best Practices
--Project 4: Serverless Function  
--Project 5: Containerized App on Cloud Run  
+-Project 4: Cloud Run Function for Event Processing  
+-Project 5: Serverless Web App with Cloud Run + Firestore 
 -Project 6: GKE Microservices App  
 -Project 7: Real-Time Data Pipeline  
--Project 8: High Availability Setup
+-Project 8: Deploy a Scalable Web App on GKE  
+-Project 9: CI/CD Pipeline with Cloud Build and GKE  
+-Project 10: Cloud Monitoring, Logging, and Alerts  
+-Project 11: IAM & Security Hardening  
+-Project 12: Implement CI/CD with Cloud Build and GitHub  
+-Project 13: Add Monitoring & Logging for GKE App
