@@ -1,4 +1,4 @@
-# Week 2 Project: Static Website Hosting with Google Cloud Load Balancer
+# Project 1: Static Website Hosting with Google Cloud Load Balancer
 
 ## Overview
 -This project demonstrates how to host a static website on Google Cloud Storage
